@@ -24,7 +24,7 @@ public class ConditionExercice4 {
 //		int[] num = {p1,p2,p3,p4,p5};
 //		Arrays.sort(num);
 //		if (num.lenth%2 ==0) {
-//			p6 = ((num[num.lenth/2-1]) + (num[num.lenth/2+1])) /2;
+//			p6 = ((num[(num.lenth/2)-1]) + (num[num.lenth/2]) /2;
 //			else {
 //				p6 = (num[num.lenth/2]);
 //			}
