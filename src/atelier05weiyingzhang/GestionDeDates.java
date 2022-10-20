@@ -1,6 +1,6 @@
 package atelier05weiyingzhang;
 
-import crous04.Date;
+import cours04.Date;
 /** calcul du nombre de jours avant le 14 juillet 2023
  * 
  * @author zhang
