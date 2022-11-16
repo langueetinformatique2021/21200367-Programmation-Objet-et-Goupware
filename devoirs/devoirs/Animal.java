@@ -16,6 +16,24 @@ public class Animal {
 		this.color = colors;
 		this.feetnumber = feetnumbers;
 	}
+	public String gettype(){
+		return type;
+	}
+	public void settype(String type){
+		this.type = type;		
+	}
+	public String getcolor() {
+		return color;
+	}
+	public void setcolor(String color) {
+		this.color = color;
+	}
+	public int getfeetnumber() {
+		return feetnumber;
+	}
+	public void setfeetnumber(int feetnumber) {
+		this.feetnumber = feetnumber;
+	}
 	public void introduce() {
 		System.out.println("This animal is a" + type +" and has " + feetnumber + "legs." );
 	}

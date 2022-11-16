@@ -51,7 +51,7 @@ class etudiant{
 	public int getAge() {
 		return Age;
 	}
-	public void setAge() {
+	public void setAge(int Age) {
 		this.Age = Age;
 	}
 	public void print() {

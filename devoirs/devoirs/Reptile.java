@@ -13,6 +13,18 @@ public class Reptile extends Animal {
 		environment = environments;
 		temperature = temperatures;
 	}
+	public String getenvironment() {
+		return environment;
+	}
+	public void setenvironment(String environment) {
+		this.environment = environment;
+	}
+	public int gettemperature() {
+		return temperature;
+	}
+	public void settemperature(int temperature) {
+		this.temperature = temperature;
+	}
 	public void reintroduce() {
 		System.out.println("And it lives in a" + environment + "with a temperature of" + temperature + "degrees.");
 	}

@@ -11,7 +11,12 @@ public class Crocodile extends Reptile {
 		super(types, colors, feetnumbers, environments, temperatures);
 		name = names;
 	}
-	
+	public String getname() {
+		return name;
+	}
+	public void setname(String name) {
+		this.name = name;
+	}
 	public void Name() {
 		System.out.println("Its name is " + name);
 	}
