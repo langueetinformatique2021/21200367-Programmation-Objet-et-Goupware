@@ -1,22 +1,21 @@
-package devoirs;
+package atelier05weiyingzhang;
 /**
  * 
  * @author zhang
  *
  */
-public class Etudiant {
+public class EtudiantPromotion {
 	public static void main(String[]args) {
 	}
 }
-
-class etudiant{
+class Etudiant{
 	private int Number;
 	private String Nom;
 	private String Prenom;
 	private String Sex;
 	private int Age;
 		
-	public etudiant(int Number, String Nom, String Prenom, String Sex, int Age) {
+	public Etudiant(int Number, String Nom, String Prenom, String Sex, int Age) {
 		this.Number = Number;
 		this.Nom = Nom;
 		this.Prenom = Prenom;
@@ -50,7 +49,7 @@ class etudiant{
 	public int getAge() {
 		return Age;
 	}
-	public void setAge(int Age) {
+	public void setAge() {
 		this.Age = Age;
 	}
 	public void print() {
